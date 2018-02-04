@@ -1,0 +1,37 @@
+body {
+	background-color: #FFF;
+        //background: url('images/catalog/blacknoise.png');
+        background-repeat: repeat;
+}
+
+li {
+	list-style-type: none;
+}
+#lstImages{
+    
+}
+
+.imagesSource {
+	display: none;
+        //height: 700px;
+}
+
+.canvasHolder {
+	top:-50px;
+	position: absolute;
+}
+
+.canvasHolder canvas {
+	border: 1px solid red;
+        height:auto;
+}
+
+#mouse {
+	background:green;
+	opacity:0.65;
+	position:absolute;
+	color: White;
+	text-align: center;
+	font-weight: bold;
+	z-index: 100;
+}
